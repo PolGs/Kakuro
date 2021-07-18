@@ -1,0 +1,43 @@
+Prova 1
+Descripció:Comprovar que la classe Kakuro funciona correctament.
+Objectiu:Assegurar-nos de que la funcio consultar_caselles() funciona correctament.
+Entrada:
+1
+1
+4,4
+*,C18,C13,C10
+F23,?,?,?
+F11,?,?,?
+F7,?,?,?
+Sortida:
+4,4
+*,C18,C13,C10
+F23,?,?,?
+F11,?,?,?
+F7,?,?,?
+
+Prova 2
+Descripció:Comprovar que la classe Kakuro funciona correctament.
+Objectiu:Assegurar-nos de que la funcio escriure_caselles() funciona correctament.
+Entrada:
+2
+1
+5,5
+*,*,*,C7,C24
+*,C6,C23F9,?,?
+F17,?,?,?,?
+F24,?,?,?,?
+F10,?,?,*,*
+5,5
+*,*,*,C7,C24
+*,C6,C23F9,?,?
+F17,1,2,3,4
+F24,?,?,?,?
+F10,?,?,*,*
+Sortida:
+5,5
+*,*,*,C7,C24
+*,C6,C23F9,?,?
+F17,1,2,3,4
+F24,?,?,?,?
+F10,?,?,*,*

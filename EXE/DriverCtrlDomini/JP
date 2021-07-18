@@ -1,0 +1,134 @@
+------Prova 1-------
+Descripció:En aquesta prova mirem si el cas d'ús solucionar kakuro funciona. (CtrlDomini)
+Objectius:Donat un Kakuro amb les caselles blanques sense omplir provar que el solucionador funciona correctament. Aquest kakuro té una única solució.
+Drivers utilitzats: DriverCtrlDomini
+
+Entrada:
+5,5
+*,*,*,C7,C24
+*,C6,C23F9,?,?
+F17,?,?,?,?
+F24,?,?,?,?
+F10,?,?,*,*
+
+Sortida:
+EL Kakuro té una unica solucio i es:
+5,5
+*,*,*,C7,C24
+*,C6,C23F9,2,7
+F17,2,6,1,8
+F24,3,8,4,9
+F10,1,9,*,*
+
+---------Prova 2--------
+Descripció:En aquesta prova mirem si el cas d'ús solucionar kakuro funciona. (CtrlDomini)
+Objectius:Donat un Kakuro amb les caselles blanques sense omplir provar que el solucionador funciona correctament. Aquest kakuro té dues solucions.
+Drivers utilitzats: DriverCtrlDomini
+
+Entrada:
+3,3
+*,C3,C3
+F3,?,?
+F3,?,?
+
+Sortida:
+Sha detectat que el kakuro te mes d'una solució, per tant es incorrecte
+La primera solució trobada es:
+3,3
+*,C3,C3
+F3,1,2
+F3,2,1
+
+Prova 3
+Descripció:En aquesta prova mirem si la funcionalitat solucionar kakuro funciona. (CtrlDomini)
+Objectius:Donat un Kakuro amb les caselles blanques sense omplir provar que el solucionador funciona correctament. Aquest kakuro no te solució.
+Drivers utilitzats: DriverCtrlDomini
+
+Entrada:
+3,3
+*,C4,C5
+F17,?,?
+F5,?,?
+
+Sortida:
+S’ha detectat que el kakuro no te cap solució, per tant es incorrecte
+
+Prova 4:
+Descripció: En aquesta prova mirem si la funcionalitat de convertir de String a Kakuro i de Kakuro a String funciona correctament.
+Objectius: Donat un Kakuro buit o solucionat, comprova que la transformació de String a Kakuro amb de_string_a_kakuro(string) i de retornar a String amb de_kakuro_a_string(kakuro) funciona correctament, obtenint el mateix a la sortida que el que teniem la entrada.
+Drivers utilitzats: DriverCtrlDomini
+
+
+
+Entrada:
+4,4
+*,C18,C13,C10
+F23,9,8,6
+F11,7,1,3
+F7,2,4,1
+
+Sortida:
+Sha convertit la string en kakuro i s'ha tornat a string amb resultat:
+4,4
+*,C18,C13,C10
+F23,9,8,6
+F11,7,1,3
+F7,2,4,1
+
+
+I amb una altra entrada:
+
+Entrada:
+4,4
+*,C18,C13,C10
+F23,?,?,?
+F11,?,?,?
+F7,?,?,?
+
+Sortida:
+Sha convertit la string en kakuro i s'ha tornat a string amb resultat:
+4,4
+*,C18,C13,C10
+F23,0,0,0
+F11,0,0,0
+F7,0,0,0
+
+
+
+
+Prova 5:
+Descripció: En aquesta prova mirem si la funcionalitat de convertir de String a kakuro funciona correctament.
+Objectius:Comprovar que de_string_a_kakro() escriu bé els valors a les caselles blanques
+
+Entrada:
+4,4
+*,C18,C13,C10
+F23,9,8,6
+F11,7,1,3
+F7,2,4,1
+
+2
+
+2 1
+
+Sortida:
+El valor a la posició 2 1 es 7
+
+Prova 6:
+Descripció: En aquesta prova mirem si la funcionalitat de convertir de String a kakuro funciona correctament.
+Objectius:Comprovar que de_string_a_kakro() escriu bé les pistes a les caselles negres
+
+Entrada:
+4,4
+*,C18,C13,C10
+F23,9,8,6
+F11,7,1,3
+F7,2,4,1
+
+3
+
+0 1
+
+Sortida:
+No hi ha pistaHoritzontal
+La pistaVertical a la posició 0 1 es 18

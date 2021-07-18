@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Presentacio.MainScreen">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="74b34" class="javax.swing.JButton" binding="RANKINGButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <text value="RANKING"/>
+        </properties>
+      </component>
+      <component id="d97a2" class="javax.swing.JButton" binding="PLAYButton">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <text value="PLAY"/>
+        </properties>
+      </component>
+      <vspacer id="874b5">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="71098">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="56ba">
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="22dad">
+        <constraints>
+          <grid row="1" column="6" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="e5d94" class="javax.swing.JButton" binding="USERButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="28"/>
+          <text value="USER"/>
+        </properties>
+      </component>
+      <hspacer id="a92f3">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="38ba5" class="javax.swing.JButton" binding="REPOSITORYButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <text value="REPOSITORY"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,33 @@
+Prova 1
+Descrició: Comprobar que la classe CasellaNegra està ben implementada.
+Objectius: Comprovar que la constructora funciona correctament.
+
+Entrada:
+0
+10
+10
+Sortida:
+pistaHorizontal consultada: 10
+pistaVertical consultada: 10
+
+Prova 2
+Descripció: Comprobar que la classe CasellaNegra està ben implementada.
+Objectius: Comprovar que el métode consultar_pista_horizontal() funcioni correctament.
+
+Entrada:
+1
+10
+
+Sortida:
+pistaHorizontal consultada: 10
+
+Prova 3
+Descripció: Comprobar que la classe CasellaNegra està ben implementada.
+Objectius: Comprovar que el métode consultar_pista_vertical() funcioni correctament.
+
+Entrada:
+1
+10
+
+Sortida:
+pistaVertical consultada: 10

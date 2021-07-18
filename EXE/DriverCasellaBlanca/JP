@@ -1,0 +1,29 @@
+Prova 1
+Descrició:Comprovar que la classe CasellaBlanca esta ben implementada.
+Objectius:comprovar que consultar_valor() funciona correctament.
+Entrada:
+1
+2
+Sortida:
+valor consultat: 2
+
+Prova 2
+Descripció:Comprobar que la classe CasellaBlanca esta ben implementada.
+Objectius:Comprovar que escriure_valor() funciona correctament
+Entrada:
+2
+6
+Sortida:
+valor consultat: 6
+
+Prova 3
+Descripció:Comprobar que la classe CasellaBlanca esta ben implementada.
+Objectius:Comprovar que escriure_correcte_a_valor funciona correctament
+Entrada:
+3
+1
+Sortida:
+valor consultat: 1
+
+
+

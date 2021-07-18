@@ -1,0 +1,34 @@
+------Prova 1-------
+Descripció:En aquesta prova mirem si el cas d'ús generar kakuro funciona. (CtrlGenerarKakuro)
+Objectius: Donat un número de files, un número de columnes i un número de caselles blanques genera un kakuro que té solució.
+Drivers utilitzats: DriverCtrlGenerarKakuro
+
+Entrada:
+7
+7
+28
+
+Sortida:
+(La sortida depèn de factors aleatoris però hauria de tenir aquest format i coincidir en número de files, número de columnes i número de caselles blanques)
+7,7
+*,*,C30,C35,C33,*,*
+*,F19,?,?,?,*,*
+*,F12,?,?,?,C15,C14
+*,C13F30,?,?,?,?,?
+F28,?,?,?,?,?,?
+F33,?,?,?,?,?,?
+F18,?,?,?,?,?,*
+
+------Prova 2-------
+Descripció:En aquesta prova mirem si el cas d'ús generar kakuro no funciona amb restriccions incorrectes. (CtrlGenerarKakuro)
+Objectius: Donat un número de files, un número de columnes i un número de caselles blanques que no pot generar cap kakuro el programa imprimeix un missatge d’error.
+Drivers utilitzats: DriverCtrlGenerarKakuro
+
+Entrada:
+9
+9
+70
+
+Sortida:
+No s'ha pogut generar un kakuro amb aquestes restriccions
+

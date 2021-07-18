@@ -1,0 +1,9 @@
+.idea
+Production/
+TESTS/test
+EXE/DriverCasellaBlanca/DriverCasellaBlanca.jar
+EXE/DriverCasellaNegra/DriverCasellaNegra.jar
+EXE/DriverCtrlDomini/DriverCtrlDomini.jar
+EXE/DriverCtrlGenerarKakuro/DriverCtrlGenerarKakuro.jar
+EXE/DriverKakuro/DriverKakuro.jar
+*.txt
