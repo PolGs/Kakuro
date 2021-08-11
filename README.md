@@ -11,5 +11,5 @@ Manté un registre de récords per cada kakuro que s’ha jugat.
 Permet generar kakuros manualment o aleatòriament i també carregar-los a
 partir d’un fitxer.
 
-![alt text](https://raw.githubusercontent.com/PolGs/C-EthicalRAT/main/image_2021-07-30_221130.png)
+![alt text](![image](https://user-images.githubusercontent.com/19478700/128951594-66513ed4-5539-432e-96db-dc49633310e5.png))
 
