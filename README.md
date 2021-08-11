@@ -58,6 +58,20 @@ que acabem de crear.
 
 
 ## How does it work?
-
+Algorisme solucionador de kakuros:
+S’atribueix per ordre un valor de l’1 al 9 a les caselles blanques (solver) una per una
+(next_white_cell) y comprova que es compleixen les restriccions (verificar_casella_run), fent
+backtracking en cas contrari.
+Quan es troba una solució s’afegeix al solution stack, fent abans una copia
+(copia_mat_caselles)
+Algorsime generador de kakuros:
+Es comença generant un tauler que compleix les especificacions de files, columnes i nº de
+caselles blanques que es passen com a paràmetres. També, tenint en compte de no tenir
+files ni columnes més llargues de 9 i sense tenir espais d’una casella blanca. A partir d’aqui
+s’omplen les caselles blanques amb números intentant
+Estructrures de dades utilitzades per represtentar el kakuro:
+La nostra represtentació d’un kakuro en Java consta de una array d’arrays (array 2D) que té
+com a elements objectes de la classe casella. Cada casella pot ser blanca o negra, si es
+blanca té un atribut que es el valor i si es negra en pot tenir fins a dos que son les pistes.
 
 
