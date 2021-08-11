@@ -13,8 +13,8 @@ partir d’un fitxer.
 
 
 
-<object data="https://github.com/PolGs/Kakuro/blob/a01855866c12885b9c0e6721a476c58b0e049389/Entrega%203.0.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/PolGs/Kakuro/blob/a01855866c12885b9c0e6721a476c58b0e049389/Entrega%203.0.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/PolGs/Kakuro/blob/a01855866c12885b9c0e6721a476c58b0e049389/Entrega%203.0.pdff">Download PDF</a>.</p>
+<object data="https://github.com/PolGs/Kakuro/raw/a01855866c12885b9c0e6721a476c58b0e049389/Entrega%203.0.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/PolGs/Kakuro/raw/a01855866c12885b9c0e6721a476c58b0e049389/Entrega%203.0.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/PolGs/Kakuro/raw/a01855866c12885b9c0e6721a476c58b0e049389/Entrega%203.0.pdf">Download PDF</a>.</p>
     </embed>
 </object>
